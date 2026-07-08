@@ -1,4 +1,13 @@
 /*
- * 2-3 구조 분해 할당
+ * 2-2 단락 평가
  */
 
+// 단락 평가 활용 사례
+
+function printName(person) {
+  const name = person && person.name;
+  console.log(name || "person의 값이 없음");
+}
+
+printName();
+printName({ name: "이성연" });
