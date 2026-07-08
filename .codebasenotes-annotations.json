@@ -18,10 +18,6 @@
             "chapter04.js": {
               "type": "js",
               "annotation": "Spread 연산자, Rest 연산자\n */"
-            },
-            "chapter05.js": {
-              "type": "js",
-              "annotation": "원시타입 vs 객체타입"
             }
           }
         }
