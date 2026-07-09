@@ -41,3 +41,10 @@ const slicedArr2 = arr5.slice(2); // 2번 인덱스부터 다 잘라냄
 const slicedArr3 = arr5.slice(-3); // 뒤에서 3개 잘라냄
 console.log(slicedArr); // [2, 3, 4]
 console.log(arr5); // [1, 2, 3, 4, 5] 원본 배열은 그대로 유지
+
+// 6. concat
+// 두 개의 서로 다른 배열을 이어 붙어서 새로운 배열을 반환
+
+let arr6 = [1, 2, 3];
+let arr7 = [4, 5, 6];
+const concatenatedArr = arr6.concat(arr7);

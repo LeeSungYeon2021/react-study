@@ -27,7 +27,9 @@
 ```text
 ├── 📁 .vscode                           # VS Code 에디터 로컬 환경 설정
 ├── 📁 onebite-react                     # '한 입 크기로 잘라먹는 리액트' 실습 폴더
-│   ├── 📁 section01 ~ 12                 # 주차별/섹션별 코딩 실습 예제
-│   └── 📄 index.html                     # 웹 애플리케이션 메인 진입점 HTML
+│   ├── 📁 section02                     # js 기초, 심화 속성 학습
+│   ├── 📁 section03                     # node.js  세팅 및 학습
+│   ├── 📁 section04                     # react.js 세팅 
+│   ├── 📁 section04                     # react.js 학습
 ├── 📄 .codebasenotes-annotations.json   # VS Code 확장 프로그램 파일 참조용 메타데이터
 └── 📄 README.md                         # 전체 학습 로드맵 및 가이드 문서 (본 파일)
