@@ -28,7 +28,7 @@ const List = ({todo}) => {
                 <div>
                     {filterData.map((item) => {
                         return <TodoItem key={item.id} {...item}/>
-                    })}                    
+                    })}
                 </div>                
             </section>
         </div>
