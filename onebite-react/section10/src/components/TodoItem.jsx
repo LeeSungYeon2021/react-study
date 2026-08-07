@@ -33,11 +33,13 @@ const TodoItem = ({
 }
 
 // 고차(HOC) 컴포넌트
-export default memo(TodoItem, (prevProps, nextProps) => {
-    if(prevProps.id !== nextProps.id) return false;
-    if(prevProps.isDone !== nextProps.isDone) return false;
-    if(prevProps.content !== nextProps.content) return false;
-    if(prevProps.date !== nextProps.date) return false;
+// export default memo(TodoItem, (prevProps, nextProps) => {
+//     if(prevProps.id !== nextProps.id) return false;
+//     if(prevProps.isDone !== nextProps.isDone) return false;
+//     if(prevProps.content !== nextProps.content) return false;
+//     if(prevProps.date !== nextProps.date) return false;
 
-    return true;    
-});
+//     return true;    
+// });
+
+export default memo(TodoItem);
